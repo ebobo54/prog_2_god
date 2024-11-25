@@ -1,4 +1,12 @@
+# lab_1
+ 
+ ---
 
+ ## Задание
+На языке С написать функцию вставки нового элемента в односвязный список по
+индексу. Реализовать один из двух возможных вариантов вставки: вставка перед или после
+текущего элемента, где текущий элемент определяется по заданным индексом.
+```c
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -59,3 +67,8 @@ int main()
   
   return 0;
 }
+
+```
+![](Q.png)
+1. [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+2. [stackoverflow](https://stackoverflow.com/questions/34836305/how-do-i-make-a-flowchart-using-markdown-on-my-github-blog)

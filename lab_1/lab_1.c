@@ -62,13 +62,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Структура узла односвязного списка
 typedef struct Node {
     int data;
     struct Node* next;
 } Node;
 
-// Функция для создания нового узла
 Node* createNode(int data) {
     Node* newNode = (Node*)malloc(sizeof(Node));
     if (!newNode) {

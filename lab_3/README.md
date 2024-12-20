@@ -105,7 +105,7 @@ int main() {
     root = insertNode(root, 60);
     root = insertNode(root, 80);
 
-    printf("In-order traversal of the tree before any deletion:\n");
+    printf("deleting a node from a binary tree:\n");
     inOrderTraversal(root);
     printf("\n");
 
